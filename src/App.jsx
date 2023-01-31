@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Aboutme from "./components/aboutme/Aboutme";
@@ -16,11 +16,12 @@ function App() {
 <div className="sections">
   <Intro/>
   <Work/>
-  <Education/>
+ <Education/>
   <Aboutme/>
   <Contact/>
 
 </div>
+
 </div>
   );
 }
